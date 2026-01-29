@@ -1,7 +1,0 @@
-data_source,source_catalog,source_schema,source_table,target_catalog,target_schema,target_table_name,validation,scope_name,primary_key,filters_condition,filters_column,transformation,column_mapping
-mssql,lfdemo,dbo,fact_transaction,learning_lab_catalog,silver,fact_transaction,ALL,lakebridge_mssql,Transaction_ID,-30,updated_at,,
-mssql,lfdemo,dbo,dim_customer,learning_lab_catalog,silver,dim_customer,row,lakebridge_mssql,customer_id,,,,
-mssql,lfdemo,dbo,dim_branch,learning_lab_catalog,silver,dim_branch,count,lakebridge_mssql,branch_id,,,,
-mssql,lfdemo,dbo,dim_date,learning_lab_catalog,silver,dim_date,schema,lakebridge_mssql,date_id,,,,
-mssql,lfdemo,dbo,dim_transaction_type,learning_lab_catalog,silver,dim_transaction_type,row,lakebridge_mssql,type_id,,,,
-mssql,lfdemo,dbo,dim_transaction_status,learning_lab_catalog,silver,dim_transaction_status,row,lakebridge_mssql,status_id,,,,
