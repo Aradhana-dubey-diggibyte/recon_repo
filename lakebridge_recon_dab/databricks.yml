@@ -21,7 +21,7 @@ resources:
           notebook_task:
             notebook_path: ./notebooks/NB_recon_config.ipynb
             base_parameters:
-              config_path: /Volumes/learning_lab_catalog/recon_csv/recon_config/recon_config.csv
+              config_path: ./config/recon_config.csv
               target_env: "${bundle.target}"
 
           timeout_seconds: 600
