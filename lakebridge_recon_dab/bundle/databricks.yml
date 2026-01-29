@@ -21,7 +21,7 @@ resources:
           notebook_task:
             notebook_path: ./notebooks/NB_recon_config.ipynb
             base_parameters:
-              config_path: ./config/recon_config.csv
+              config_path: /Workspace/Users/aradhana.dubey@diggibyte.com/.bundle/pl-lakebridge-recon/dev/files/config/recon_config.csv
               target_env: "${bundle.target}"
 
           timeout_seconds: 600
