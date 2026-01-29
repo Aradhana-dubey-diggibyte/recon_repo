@@ -19,9 +19,9 @@ resources:
           existing_cluster_id: "0422-125216-1t83bm6v"
 
           notebook_task:
-            notebook_path: ../notebooks/NB_recon_config.ipynb
+            notebook_path: ./notebooks/NB_recon_config.ipynb
             base_parameters:
-              config_path: ../config/recon_config.csv
+              config_path: ./config/recon_config.csv
               target_env: "${bundle.target}"
 
           timeout_seconds: 600
@@ -37,7 +37,7 @@ resources:
           existing_cluster_id: "0422-125216-1t83bm6v"
 
           notebook_task:
-            notebook_path: ../notebooks/NB_recon_runner.ipynb
+            notebook_path: ./notebooks/NB_recon_runner.ipynb
             base_parameters:
               recon_config: "{{tasks.lakebridge_recon_config.values.result}}"
               target_env: "${bundle.target}"
